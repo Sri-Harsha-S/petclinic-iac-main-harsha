@@ -34,7 +34,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "harsha-petclinic"
+    bucket = "harsha-petclinic-bucket"
     key    = "terraform.tfstate"
     region = "eu-west-3"
   }
